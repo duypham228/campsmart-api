@@ -26,9 +26,9 @@ def weather(location):
     #Get the list of weather info for today weather
 
     #Get today temperature from the list
-    
-	return render_template('weather.html', location=location, temp=today_temp)
 
+    return render_template('weather.html', location=location, temp=today_temp)
+    
 
 
 if __name__=="__main__":
