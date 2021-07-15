@@ -24,8 +24,8 @@ def weather(location):
     #Get the consolidated weather from the JSON file
     
     #Get the list of weather info for today weather
-    
-    #Get today temperature from the list
+
+	#Get today temperature from the list
     
 	return render_template('weather.html', location=location, temp=today_temp)
 
